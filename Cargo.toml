@@ -1,9 +1,9 @@
 [package]
-name = "__"
-description = "__; drop to the trash syntax sugar for any types."
+name = "to_unit"
+description = "ToUnit; Any type to () syntax sugar."
 authors = ["USAGI.NETWORK / Usagi Ito <the@usagi.network>"]
-categories = ["parsing"]
-keywords = ["logical", "expression", "extensible", "parser", "text"]
+categories = ["rust-patterns"]
+keywords = ["syntax-sugar", "any", "type", "unit"]
 documentation = "https://docs.rs/__/"
 repository = "https://github.com/usagi/__"
 version = "1.0.0"

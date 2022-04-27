@@ -1,6 +1,6 @@
-pub trait __
+pub trait ToUnit
 {
- fn __(&self) {}
+ fn to_unit(&self) {}
 }
 
-impl<T> __ for T {}
+impl<T> ToUnit for T {}

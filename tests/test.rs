@@ -1,4 +1,5 @@
-use __::__;
+use to_unit::ToUnit;
+// or, `use to_unit::ToUnit as __` for ultra lay persons!
 
 #[test]
 fn match_arms_to_easily()
@@ -9,7 +10,7 @@ fn match_arms_to_easily()
  match x.get_mut("neko")
  {
   Some(v) => *v = 222,
-  None => x.insert("neko".to_string(), 222).__() // <-- here!
+  None => x.insert("neko".to_string(), 222).to_unit() // <-- here!
  }
  // Ofcorse alternatively, you can write:
  //  eg. None => { x.insert("neko".to_string(), 222); }
