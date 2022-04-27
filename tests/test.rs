@@ -1,5 +1,5 @@
 use to_unit::ToUnit;
-// or, `use to_unit::ToUnit as __` for ultra lay persons!
+// or, `use to_unit::ToUnit as __` for ultra lzay persons!
 
 #[test]
 fn match_arms_to_easily()
