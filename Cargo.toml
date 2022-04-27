@@ -6,6 +6,6 @@ categories = ["rust-patterns"]
 keywords = ["syntax-sugar", "any", "type", "unit"]
 documentation = "https://docs.rs/to_unit/"
 repository = "https://github.com/usagi/to_unit"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 license = "MIT"
